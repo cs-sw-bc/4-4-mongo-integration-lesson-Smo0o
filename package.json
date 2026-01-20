@@ -1,0 +1,21 @@
+{
+  "name": "ejs_complete",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Express + EJS demo app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "debug": "node --inspect=9929 app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
